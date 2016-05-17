@@ -11,3 +11,5 @@ wget https://raw.githubusercontent.com/stvnwrgs/coreos-helper-scripts/master/pre
 chmod +x gce-metadata-downloader.sh wupiao.sh prepare-cfssl.sh
 
 /opt/bin/prepare-cfssl.sh
+
+export PATH=$PATH:/opt/bin/
